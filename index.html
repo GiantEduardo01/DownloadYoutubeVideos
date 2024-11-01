@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Script perl para descargar y convertir videos de YouTube</title>
+</head>
+
+<body>
+    <div class="first-block">
+        <h1 class = "first-header">Script perl para descargar y convertir videos de YouTube</h1>
+    </div>
+
+    <div class="second-block">
+        <h2 class = "second-header">Descripción general de cómo utilizar el Script</h1>
+    </div>
+
+    <div class="third-block">
+        <h2 class = "third-header">Descargar script y playlists</h1>
+    </div>
+
+    <div class="select-files-download">
+        <form action="cgi-bin/script.pl" method="GET">
+            <input type="radio" id="script" name="download_script" value="Script Perl">
+            <label for="script">Script Perl</label><br>
+
+            <input type="radio" id="playlist_one" name="first_playlist" value="Primera PlayList">
+            <label for="first_playlist">Primera PlayList</label><br>
+
+            <input type="radio" id="playlist_two" name="second_playlist" value="Segunda PlayList">
+            <label for="second_playlist">Segunda Playlist</label><br>
+
+            <div class="download-button"><input type="submit" value="Descargar Archivos"></div>
+        </form>
+    </div>
+
+</body>
+
+</html>
